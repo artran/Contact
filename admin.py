@@ -1,5 +1,5 @@
 from django.contrib import admin
-from ti_visual.contact.models import *
+from models import *
 
 
 class ElementAdmin(admin.ModelAdmin):

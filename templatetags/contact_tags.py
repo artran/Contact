@@ -1,8 +1,8 @@
 from django.template import Library, Template
 from django.template.context import Context
 
-from ti_visual.contact.forms import ContactForm
-from ti_visual.contact.models import ContactFormModel
+from contact.forms import ContactForm
+from contact.models import ContactFormModel
 
 
 register = Library()
